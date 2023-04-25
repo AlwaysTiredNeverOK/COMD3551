@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #665544;
+	box-sizing: border-box;
+}
+        
+header h1 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+article h3 {
+	text-align: center;
+}
+
+article img {
+	max-width: 100%;
+	height:auto;
+}
+
+nav, #feature, footer {
+	margin: 1%;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	padding: 0.5em;
+	color: white;
+}
+
+.description {
+	font-size: 0.8em;
+	color: gray;
+}
